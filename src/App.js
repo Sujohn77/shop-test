@@ -1,7 +1,6 @@
 import React from 'react';
 import {Layout} from "./components/Shared/Layout.jsx";
 import {BrowserRouter, Redirect, Route} from "react-router-dom";
-import {LoginPage} from "./components/Content/Routes/Login/LoginPage.jsx";
 import {Provider} from "react-redux";
 import store from "./redux/store";
 import MarketContainer from "./components/Content/Routes/Market/MarketContainer.jsx";
