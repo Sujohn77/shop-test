@@ -1,0 +1,36 @@
+header{
+    font-family: 'Roboto';
+}
+
+.header__container{
+    padding-top: 15px;
+    color:#fff;
+    font-style: normal;
+    background-color: #09d3ac;
+}
+
+.header__centered{
+    display: flex;
+    max-width: 720px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket__block{
+    align-items: center;
+    display: flex;
+}
+
+.basket__block > span{
+    margin-left: 1rem;
+}
+
+h2{
+    font-family: sans-serif;
+    background: #fff;
+    padding: 8px;
+    margin: 0;
+    border: 13px solid transparent;
+    border-top: 14px solid #49afe1;
+}
