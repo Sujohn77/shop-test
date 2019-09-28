@@ -4,7 +4,12 @@ import {Header} from "./Header.jsx";
 import {connect} from "react-redux";
 
 const HeaderContainer = ({addedProducts}) => {
-    return <Header cartCounter={addedProducts.length}/>;
+
+    let cartCounter = 0;
+    addedProducts.forEach((elem) => {
+        cartCounter += elem.count;
+    });
+    return <Header cartCounter={cartCounter}/>;
 };
 
 let mapStateToProps = (state) => ({
